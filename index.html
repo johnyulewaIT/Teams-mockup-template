@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/dist/output.css">
+</head>
+<body>
+
+  <!--Header goes here..-->
+    <div class="bg-purple-500 w-full h-12 flex justify-between items-center px-2 shandow-b-lg">
+      <div class="w-1/4 flex items-center font-semibold text-white space-x-7">
+        <img src="../img/teams.png" class="w-12 h-12" alt="">
+        <h3 class="hidden md:flex">Microsoft Teams</h3>
+      </div>
+      <div class="w-2/3 px-12">
+        <input type="text" class="p-2 items-center h-8 w-full rounded-md focus:outline-none" placeholder="Search">
+      </div>
+      <div class="relative flex items-center justify-center mr-20">
+        <a href="#">
+          <img src="../img/profile_av.jpg" class="object-cover object-center w-8 h-8 rounded-full" alt="">
+          <span class="absolute bottom-0 right-0 w-2 h-2 bg-green-500 ring ring-white rounded-full"></span>
+        </a>
+      </div>
+    </div>
+
+  <!--Components starts Here.. -->
+  <div class="flex flex-row h-screen bg-gray-100">
+    <!--Second Component here..-->
+    <div class="flex flex-col w-18 bg-purple-900 justify-between items-center py-4">
+      <div class="flex flex-col space-y-8">
+        <a href="#" class="hover:bg-purple-500 px-5 py-2">
+          <div class="text-white flex flex-col items-center">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M14.857 17.082a23.848 23.848 0 005.454-1.31A8.967 8.967 0 0118 9.75v-.7V9A6 6 0 006 9v.75a8.967 8.967 0 01-2.312 6.022c1.733.64 3.56 1.085 5.455 1.31m5.714 0a24.255 24.255 0 01-5.714 0m5.714 0a3 3 0 11-5.714 0" />
+            </svg>
+              <h2>Activity</h2> 
+          </div>         
+        </a>
+        <a href="#" class="bg-purple-500 px-5 py-2">
+          <div class="text-white flex flex-col items-center">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M7.5 8.25h9m-9 3H12m-9.75 1.51c0 1.6 1.123 2.994 2.707 3.227 1.129.166 2.27.293 3.423.379.35.026.67.21.865.501L12 21l2.755-4.133a1.14 1.14 0 01.865-.501 48.172 48.172 0 003.423-.379c1.584-.233 2.707-1.626 2.707-3.228V6.741c0-1.602-1.123-2.995-2.707-3.228A48.394 48.394 0 0012 3c-2.392 0-4.744.175-7.043.513C3.373 3.746 2.25 5.14 2.25 6.741v6.018z" />
+            </svg>
+            
+              <h2>Chat</h2> 
+          </div>         
+        </a><a href="#" class="hover:bg-purple-500 px-5 py-2">
+          <div class="text-white flex flex-col items-center">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 012.25-2.25h13.5A2.25 2.25 0 0121 7.5v11.25m-18 0A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75m-18 0v-7.5A2.25 2.25 0 015.25 9h13.5A2.25 2.25 0 0121 11.25v7.5m-9-6h.008v.008H12v-.008zM12 15h.008v.008H12V15zm0 2.25h.008v.008H12v-.008zM9.75 15h.008v.008H9.75V15zm0 2.25h.008v.008H9.75v-.008zM7.5 15h.008v.008H7.5V15zm0 2.25h.008v.008H7.5v-.008zm6.75-4.5h.008v.008h-.008v-.008zm0 2.25h.008v.008h-.008V15zm0 2.25h.008v.008h-.008v-.008zm2.25-4.5h.008v.008H16.5v-.008zm0 2.25h.008v.008H16.5V15z" />
+            </svg>
+            
+              <h2>Caledar</h2> 
+          </div>         
+        </a>
+        <a href="#" class="hover:bg-purple-500 px-5 py-2">
+          <div class="text-white flex flex-col items-center">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 14.25v-2.625a3.375 3.375 0 00-3.375-3.375h-1.5A1.125 1.125 0 0113.5 7.125v-1.5a3.375 3.375 0 00-3.375-3.375H8.25m2.25 0H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 00-9-9z" />
+            </svg>
+            
+              <h2>Files</h2> 
+          </div>         
+        </a>
+      </div>
+      <div>
+        <a href="#">
+          <div class="text-white flex flex-col items-center">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M4.098 19.902a3.75 3.75 0 005.304 0l6.401-6.402M6.75 21A3.75 3.75 0 013 17.25V4.125C3 3.504 3.504 3 4.125 3h5.25c.621 0 1.125.504 1.125 1.125v4.072M6.75 21a3.75 3.75 0 003.75-3.75V8.197M6.75 21h13.125c.621 0 1.125-.504 1.125-1.125v-5.25c0-.621-.504-1.125-1.125-1.125h-4.072M10.5 8.197l2.88-2.88c.438-.439 1.15-.439 1.59 0l3.712 3.713c.44.44.44 1.152 0 1.59l-2.879 2.88M6.75 17.25h.008v.008H6.75v-.008z" />
+            </svg>
+          </div>         
+        </a>
+      </div>
+    </div>
+      <!--Third Component here..-->
+      <div class="hidden md:flex">
+        <div class="flex-none flex-col bg-gray-100  w-80 p-2">
+          <div class="flex flex-row items-center p-4  justify-between">
+            <h1 class="font-semibold text-lg text-gray-600">Chat</h1>
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-gray-600">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+            </svg>
+          </div>
+            <div class="flex flex-col  p-2 justify-between">
+              <div class="flex flex-row items-center mb-2 space-x-2 hover:bg-purple-100 rounded p-2">
+                <div>
+                  <img src="../img/profile_av.jpg" class="rounded-full w-8 h-8" alt="">
+                </div>
+                <p class="flex-grow text-xm text-purple-500 font-semibold hover:font-bold">You</p>
+                <span class="text-xs text-purple-500">Pinned</span>
+              </div>
+              <hr>
+            </div>
+            <div class=" flex flex-row items-center space-x-2  hover:bg-purple-100 rounded p-2">
+              <div>
+                <img src="../img/profile_ec.jpg" class="w-8 h-8 rounded-full" alt="">
+              </div>
+              <div class="flex space-x-20">
+                <div class="flex flex-col text-gray-500">
+                  <p class=" flex-grow text-sm ">Nimia Nenex</p>
+                  <span class="text-xs">Lorem ipsum dolor</span>
+                </div>
+                <span class="text-gray-600 justify-center  text-xs">5:58 Am</span>
+              </div>
+            </div>
+            <div class=" flex flex-row items-center space-x-2  hover:bg-purple-100 rounded p-2">
+              <div>
+                <img src="../img/profile_ec.jpg" class="w-8 h-8 rounded-full" alt="">
+              </div>
+              <div class="flex space-x-20">
+                <div class="flex flex-col text-gray-500">
+                  <p class=" flex-grow text-sm ">Nimia Nenex</p>
+                  <span class="text-xs">Lorem ipsum dolor</span>
+                </div>
+                <span class="text-gray-600 justify-center  text-xs">5:58 Am</span>
+              </div>
+            </div>
+            <div class=" flex flex-row items-center space-x-2  hover:bg-purple-100 rounded p-2">
+              <div>
+                <img src="../img/profile_ec.jpg" class="w-8 h-8 rounded-full" alt="">
+              </div>
+              <div class="flex space-x-20">
+                <div class="flex flex-col text-gray-500">
+                  <p class=" flex-grow text-sm ">Nimia Nenex</p>
+                  <span class="text-xs">Lorem ipsum dolor</span>
+                </div>
+                <span class="text-gray-600 justify-center  text-xs">5:58 Am</span>
+              </div>
+            </div>
+            <div class=" flex flex-row items-center space-x-2  hover:bg-purple-100 rounded p-2">
+              <div>
+                <img src="../img/profile_ec.jpg" class="w-8 h-8 rounded-full" alt="">
+              </div>
+              <div class="flex space-x-20">
+                <div class="flex flex-col text-gray-500">
+                  <p class=" flex-grow text-sm ">Nimia Nenex</p>
+                  <span class="text-xs">Lorem ipsum dolor</span>
+                </div>
+                <span class="text-gray-600 justify-center  text-xs">5:58 Am</span>
+              </div>
+            </div>
+        </div>
+    </div>
+    <!--Fouth Component-->
+    <div class="flex flex-col w-full bg-grau-100 shadow-xl rounded-tl-lg">
+      <div class="h-full overflow-auto">
+        <div class="m-10">
+          <div class="flex flex-col space-y-4">
+            <div class="flex space-x-8">
+              <img src="../img/profile_av.jpg" class="w-10 h-10 rounded-full" alt="">
+                <div class="w-1/3 bg-white rounded-md">
+                  <p class="p-2 text-gray-500">Lorem ipsum dolor sit</p>
+                </div>
+            </div>
+            <div class="flex flex-row-reverse space-x-4">
+              <div class="w-1/3 bg-white rounded-md">
+                <p class="p-2 text-gray-500">Lorem ipsum dolor sit</p>
+              </div>
+            </div>
+            <div class="flex flex-row-reverse space-x-4">
+              <div class="w-1/3 bg-white rounded-md">
+                <p class="p-2 text-gray-500">Lorem ipsum dolor sit</p>
+              </div>
+            </div>
+            <div class="flex space-x-8">
+              <img src="../img/profile_av.jpg" class="w-10 h-10 rounded-full" alt="">
+                <div class="w-1/3 bg-white rounded-md">
+                  <p class="p-2 text-gray-500">Lorem ipsum dolor sit</p>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="h-1/6 max-w-full px-8">
+        <input type="text" class="flex px-5 py-2 w-full mt-3 mb-2 jusstify-center items-center focus:outline-none shadow-md rounded-md">
+        <div class="flex justify-between">
+          <div class="flex space-x-5">
+            <div>
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="ww-5 h-5 text-gray-500">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M16.862 4.487l1.687-1.688a1.875 1.875 0 112.652 2.652L10.582 16.07a4.5 4.5 0 01-1.897 1.13L6 18l.8-2.685a4.5 4.5 0 011.13-1.897l8.932-8.931zm0 0L19.5 7.125M18 14v4.75A2.25 2.25 0 0115.75 21H5.25A2.25 2.25 0 013 18.75V8.25A2.25 2.25 0 015.25 6H10" />
+              </svg>
+            </div>
+            <div>
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 text-gray-500">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M15.182 15.182a4.5 4.5 0 01-6.364 0M21 12a9 9 0 11-18 0 9 9 0 0118 0zM9.75 9.75c0 .414-.168.75-.375.75S9 10.164 9 9.75 9.168 9 9.375 9s.375.336.375.75zm-.375 0h.008v.015h-.008V9.75zm5.625 0c0 .414-.168.75-.375.75s-.375-.336-.375-.75.168-.75.375-.75.375.336.375.75zm-.375 0h.008v.015h-.008V9.75z" />
+              </svg>
+              
+            </div>
+            <div>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5 text-gray-500">
+                <path d="M5.25 12a.75.75 0 01.75-.75h.01a.75.75 0 01.75.75v.01a.75.75 0 01-.75.75H6a.75.75 0 01-.75-.75V12zM6 13.25a.75.75 0 00-.75.75v.01c0 .414.336.75.75.75h.01a.75.75 0 00.75-.75V14a.75.75 0 00-.75-.75H6zM7.25 12a.75.75 0 01.75-.75h.01a.75.75 0 01.75.75v.01a.75.75 0 01-.75.75H8a.75.75 0 01-.75-.75V12zM8 13.25a.75.75 0 00-.75.75v.01c0 .414.336.75.75.75h.01a.75.75 0 00.75-.75V14a.75.75 0 00-.75-.75H8zM9.25 10a.75.75 0 01.75-.75h.01a.75.75 0 01.75.75v.01a.75.75 0 01-.75.75H10a.75.75 0 01-.75-.75V10zM10 11.25a.75.75 0 00-.75.75v.01c0 .414.336.75.75.75h.01a.75.75 0 00.75-.75V12a.75.75 0 00-.75-.75H10zM9.25 14a.75.75 0 01.75-.75h.01a.75.75 0 01.75.75v.01a.75.75 0 01-.75.75H10a.75.75 0 01-.75-.75V14zM12 9.25a.75.75 0 00-.75.75v.01c0 .414.336.75.75.75h.01a.75.75 0 00.75-.75V10a.75.75 0 00-.75-.75H12zM11.25 12a.75.75 0 01.75-.75h.01a.75.75 0 01.75.75v.01a.75.75 0 01-.75.75H12a.75.75 0 01-.75-.75V12zM12 13.25a.75.75 0 00-.75.75v.01c0 .414.336.75.75.75h.01a.75.75 0 00.75-.75V14a.75.75 0 00-.75-.75H12zM13.25 10a.75.75 0 01.75-.75h.01a.75.75 0 01.75.75v.01a.75.75 0 01-.75.75H14a.75.75 0 01-.75-.75V10zM14 11.25a.75.75 0 00-.75.75v.01c0 .414.336.75.75.75h.01a.75.75 0 00.75-.75V12a.75.75 0 00-.75-.75H14z" />
+                <path fill-rule="evenodd" d="M5.75 2a.75.75 0 01.75.75V4h7V2.75a.75.75 0 011.5 0V4h.25A2.75 2.75 0 0118 6.75v8.5A2.75 2.75 0 0115.25 18H4.75A2.75 2.75 0 012 15.25v-8.5A2.75 2.75 0 014.75 4H5V2.75A.75.75 0 015.75 2zm-1 5.5c-.69 0-1.25.56-1.25 1.25v6.5c0 .69.56 1.25 1.25 1.25h10.5c.69 0 1.25-.56 1.25-1.25v-6.5c0-.69-.56-1.25-1.25-1.25H4.75z" clip-rule="evenodd" />
+              </svg>
+              
+            </div>
+          </div>
+          <div>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-4 h-4 text-gray-500">
+              <path d="M3.105 2.289a.75.75 0 00-.826.95l1.414 4.925A1.5 1.5 0 005.135 9.25h6.115a.75.75 0 010 1.5H5.135a1.5 1.5 0 00-1.442 1.086l-1.414 4.926a.75.75 0 00.826.95 28.896 28.896 0 0015.293-7.154.75.75 0 000-1.115A28.897 28.897 0 003.105 2.289z" />
+            </svg>
+            
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>   
+</body>
+</html>
+
